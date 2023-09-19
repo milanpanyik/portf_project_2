@@ -3,3 +3,6 @@ font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'Tillana', cursive;**/
 
 /** Universal **/
+body {
+    font-family: 'Tillana', cursive;
+}

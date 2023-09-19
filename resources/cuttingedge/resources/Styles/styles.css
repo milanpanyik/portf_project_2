@@ -1,0 +1,148 @@
+/** font-family: 'Open Sans', sans-serif; 
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Tillana', cursive;**/
+
+/** Universal **/
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #222324;
+    font-family: 'Tillana', cursive;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    overflow: scroll;
+    margin: 0;
+    max-width: fit-content;
+}
+
+a {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+
+/** Header **/
+
+.header {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: #222324;
+    margin-top: 0;
+    
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+/** Statement **/
+
+#statement {
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1652246207253-9b443a8c883e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1171&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10rem;
+    border-bottom: 1px solid black;
+    }
+
+#statement .textbox {
+    justify-content: space-around;
+    align-items: center;
+    background-color:#222324;
+    width: 100%;
+}
+
+/** Portfolio **/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .knife {
+    width: calc(50% - 0.5rem);
+    margin-bottom: 1rem;
+  }
+  
+  .knife img {
+    height: 16.125rem;
+    width: 18.5rem;
+    object-fit: cover;
+  }
+  
+  .description {
+    padding-left: 0.5rem;
+  }
+  
+  @media (max-width: 1400px) {
+    .knives-container {
+      justify-content: center;
+    }
+  
+    .knife {
+      width: 100%;
+    }
+  }
+/** Team **/
+
+.container img {
+  height: 21.125rem;
+  width: 18.5rem;
+  object-fit: cover;
+  
+}
+
+.member {
+  width: calc(50% - 0.5rem);
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    justify-content: center;
+  }
+
+  .member {
+    width: 100%;
+  }
+}  
+
+/** Footer **/
+.footer {
+  height: 12rem;
+} 
+
+.footer h3 {
+  font-size: 2rem;
+  word-spacing: 2px;
+}
+
+.footer p {
+  font-size: 1.2rem;
+}
+
+
+
+@media (max-width: 1400px) {
+  .footer h3 {
+    font-size: 2rem;
+  }
+
+  .footer p {
+    font-size: 2rem;
+  }
+
+}
